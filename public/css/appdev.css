@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'sora-bold';
+    src: url('/fonts/Sora-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    background-color: #272727 !important;
+}
+
+html {
+    padding-top: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+body {
+    color: #FFFFFF !important;
+}
+
+.main-text {
+    margin-top: 3%;
+    width: 75%;
+    height: auto;
+
+    background: linear-gradient(90deg, #3BF686, #4CA9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'sora-bold', sans-serif!important;
+    font-size: 51px;
+}
+
+.hero-section {
+    width: 78%;
+    height: auto;
+}
+
+
+
+/* KNOWLEDGE SECTION */
+.knowledge-section {
+    margin-top: 4%;
+}
+
+.knowledge-section h2 {
+    margin-bottom: 2%;
+    font-family: 'sora-bold', sans-serif!important;
+}
+
+.know-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+.know-row img {
+    width: 420px;
+    height: 230px;
+    margin-right: 20px;
+}
+
+.know-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.know-details p {
+    text-align: justify;
+}
+
+.know-details h4 {
+    margin: 0;
+}
+
+.know-details h2 {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .know-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .know-row img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
